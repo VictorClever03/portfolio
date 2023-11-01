@@ -4,13 +4,7 @@
         "runtime": "vercel-php@0.5.3"
       }
     }
-    ,
-    "routes": [
-      { "src": "/(.*)",  "dest": "/api/index.php" },
-      { "src": "/.PHPMailer/src/Exception.php", "dest": "api/PHPMailer/src/Exception.php" },
-      { "src": "/.PHPMailer/src/PHPMailer.php", "dest": "api/PHPMailer/src/PHPMailer.php" },
-      { "src": "/.PHPMailer/src/SMTP.php", "dest": "api/PHPMailer/src/SMTP.php" }
-    ]
+   
 
 
     
